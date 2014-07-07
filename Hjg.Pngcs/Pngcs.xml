@@ -1949,23 +1949,18 @@
             </summary>
             <remarks>see ChunksList.CHUNK_GROUP_NNN</remarks>
         </member>
-        <member name="T:Hjg.Pngcs.Zlib.ZlibOutputStreamIs">
+        <member name="T:Hjg.Pngcs.Zlib.ZlibInputStreamMs">
             <summary>
-            Zlib output (deflater) based on ShaprZipLib
+            Zip input (deflater) based on Ms DeflateStream (.net 4.5)
             </summary>
         </member>
-        <member name="M:Hjg.Pngcs.Zlib.AZlibOutputStream.getImplementationId">
+        <member name="M:Hjg.Pngcs.Zlib.AZlibInputStream.getImplementationId">
             <summary>
             mainly for debugging
             </summary>
             <returns></returns>
         </member>
-        <member name="T:Hjg.Pngcs.Zlib.ZlibInputStreamIs">
-            <summary>
-            Zip input (inflater) based on ShaprZipLib
-            </summary>
-        </member>
-        <member name="M:Hjg.Pngcs.Zlib.AZlibInputStream.getImplementationId">
+        <member name="M:Hjg.Pngcs.Zlib.AZlibOutputStream.getImplementationId">
             <summary>
             mainly for debugging
             </summary>
